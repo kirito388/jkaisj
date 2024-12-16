@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Travel Toor</title>
+</head>
+
+<body>
+  <nav>
+    <div class="nav__header">
+      <div class="nav__logo">
+        <a href="#">Travel<span>Toor</span></a>
+      </div>
+      <div class="nav__menu__btn" id="menu-btn">
+        <i class="ri-menu-3-line"></i>
+      </div>
+    </div>
+    <ul class="nav__links" id="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#package">Packages</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav__btns">
+      <button class="btn">Register</button>
+    </div>
+  </nav>
+
+  <header class="section__container header__container" id="home">
+    <div class="header__content">
+      <h1><span>Let's</span> Create Memorable Journey</h1>
+      <p class="section__description">
+        
+Бидэнтэй хамт мартагдашгүй адал явдлуудыг эхлүүлээрэй! Амьсгалах газруудыг нээж, мөнхийн дурсамжийг бүтээж, аялал бүрийг гайхалтай болго.
+      </p>
+      <form action="/">
+        <div class="input__group">
+          <label for="location">Байршил</label>
+          <input type="text" name="location" placeholder="Mongolia" />
+        </div>
+        <div class="input__group">
+          <label for="date">өдөр</label>
+          <input type="text" name="date" placeholder="26 Mar, Fri" />
+        </div>
+        <div class="input__group">
+          <label for="price">Үнэ</label>
+          <input type="text" name="price" placeholder=" 3,000,000mn" />
+        </div>
+        <button class="btn"><i class="ri-search-line"></i></button>
+      </form>
+    </div>
+    <div class="header__image">
+      <img src="assets/header-1.jpg" alt="header" />
+      <img src="assets/header-2.jpg" alt="header" />
+      <img src="assets/header-3.jpg" alt="header" />
+      <img src="assets/bg.png" alt="bg" />
+    </div>
+  </header>
+
+  <section class="section__container choose__container" id="about">
+    <div class="choose__image">
+      <img src="assets/choose.jpg" alt="choose" />
+    </div>
+    <div class="choose__content">
+      <p class="section__subheader">Яагаад биднийг сонгох вэ?</p>
+      <h2 class="section__header">Аяллаа бидэнтэй хамт <span>төлөвлөөрэй</span></h2>
+      <ul class="choose__list">
+        <li>
+          <span><i class="ri-verified-badge-fill"></i></span>
+          <div>
+            <h4>Хамгийн сайн үнийн баталгаа</h4>
+            <p>
+              Бид таныг аялалын төлөвлөгөөндөө хамгийн өрсөлдөхүйц үнээр авахыг баталгаажуулж, мөрөөдлийн газруудаа боломжийн үнэтэй болгоно.
+
+            </p>
+          </div>
+        </li>
+        <li>
+          <span><i class="ri-calendar-fill"></i></span>
+          <div>
+            <h4>
+              Захиалгын сонголтууд</h4>
+            <p>
+              Таны цагийн хуваарь, сонголтод тохирсон уян хатан захиалгын сонголтыг хялбархан мэдрээрэй.
+            </p>
+          </div>
+        </li>
+        <li>
+          <span><i class="ri-road-map-fill"></i></span>
+          <div>
+            <h4>Замын газрын зургийг засварлаж байна</h4>
+            <p>
+              Аялал жуулчлалыг саадгүй, тааламжтай өнгөрүүлэхэд зориулагдсан манай хувийн тохируулсан замын газрын зургаар адал явдлаа туулаарай.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section__container popular__container" id="package">
+    <img src="assets/bg.png" alt="bg" class="popular__bg" />
+    <p class="section__subheader">Алдартай газрууд</p>
+    <h2 class="section__header">Манай<span>алдартай газрууд</span></h2>
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <!-- Popular 1 -->
+        <div class="swiper-slide">
+          <div class="popular__card">
+            <img src="assets/popular-1.jpg" alt="Khuvsgul Lake" />
+            <div class="popular__content">
+              <div class="popular__rating">
+                <span><i class="ri-star-fill"></i></span>
+                4.0(34)
+              </div>
+              <h4>Хөвсгөл нуур</h4>
+              <p><span> 1,500,000mn/-</span>Нэг хүний</p>
+              <div class="popular__card__footer">
+                <div>
+                  <span><i class="ri-time-line"></i></span> 4 өдөр
+                </div>
+                <div>
+                  <span><i class="ri-group-3-fill"></i></span> 15+
+                </div>
+                <div>
+                  <span><i class="ri-map-pin-2-fill"></i></span> Mongolia
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Popular 2 -->
+        <div class="swiper-slide">
+          <div class="popular__card">
+            <img src="assets/popular-2.jpg" alt="Eagle" />
+            <div class="popular__content">
+              <div class="popular__rating">
+                <span><i class="ri-star-fill"></i></span>
+                4.5(55)
+              </div>
+              <h4>Бүргэд</h4>
+              <p><span> 1,000,000q/-</span> Нэг хүний</p>
+              <div class="popular__card__footer">
+                <div>
+                  <span><i class="ri-time-line"></i></span> 2 өдөр
+                </div>
+                <div>
+                  <span><i class="ri-group-3-fill"></i></span> 10+
+                </div>
+                <div>
+                  <span><i class="ri-map-pin-2-fill"></i></span> Mongolia
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Popular 3 -->
+        <div class="swiper-slide">
+          <div class="popular__card">
+            <img src="assets/popular-3.jpg" alt="Aglag Monastery" />
+            <div class="popular__content">
+              <div class="popular__rating">
+                <span><i class="ri-star-fill"></i></span>
+                4.2(45)
+              </div>
+              <h4>Аглаг Бүтээлийн Хийд</h4>
+              <p><span> 1,300,000mn-</span> Нэг хүний</p>
+              <div class="popular__card__footer">
+                <div>
+                  <span><i class="ri-time-line"></i></span> 3 өдөр
+                </div>
+                <div>
+                  <span><i class="ri-group-3-fill"></i></span> 20+
+                </div>
+                <div>
+                  <span><i class="ri-map-pin-2-fill"></i></span> Mongolia
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="section__container explore__container">
+    <div class="explore__image">
+      <img src="assets/explore.jpg" alt="explore" />
+    </div>
+    <div class="explore__content">
+      <p class="section__subheader">Бидэнтэй хамт судлаарай</p>
+      <h2 class="section__header">
+        Дэлхийг судлах мөрөөдлийн  <span>газруудыг сонгоорой</span>
+      </h2>
+      <p class="section__description">
+        Гайхамшигт ертөнцийг нээ! Бидний сонгосон мөрөөдлийн газруудын жагсаалтаас сонгоод, сэтгэл хөдлөм газар нутаг, эрч хүчтэй соёл, мартагдашгүй туршлагыг судлах аялалаа эхлүүлээрэй.
+
+      </p>
+      <div class="explore__btn">
+        <button class="btn">About Us</button>
+      </div>
+      <div class="explore__grid">
+        <div>
+          <h4>14</h4>
+          <p>Он жилүүд<br />  Туршлага</p>
+        </div>
+        <div>
+          <h4>50+</h4>
+          <p>Очих газрууд<br />Баяр ёслолууд</p>
+        </div>
+        <div>
+          <h4>320+</h4>
+          <p>Аз жаргалтай<br />Үйлчлүүлэгчид</p>
+        </div>
+      </div>
+    </div>
+  </section>
+    <div class="weather-main">
+    <div class="search-box">
+      <input type="text" id="city-input" class="search-input" placeholder="Enter city">
+      <button id="search-btn" class="search-button">Search</button>
+    </div>
+
+    <div class="weather-info">
+      <h2>Хотын нэр дэх<span id="city"> цаг агаар</span></h2>
+      <p id="current-weather">
+        🌤 <span id="temp">--°C</span> | <span id="description">--</span>
+      </p>
+      <p>Чийгшил: <span id="humidity">--%</span></p>
+      <p>Салхины хурд : <span id="wind">-- km/h</span></p>
+    </div>
+
+    <div class="forecast-container">
+      <h3>7 хоногийн урьдчилсан мэдээ</h3>
+      <ul class="forecast-list">
+      </ul>
+    </div>
+  </div>`
+
+  <section class="section__container client__container">
+    <img src="assets/bg.png" alt="bg" class="client__bg" />
+    <p class="section__subheader">Манай үйлчлүүлэгч юу гэж хэлэх вэ?</p>
+    <h2 class="section__header">Үйлчлүүлэгчийн <span> сэтгэгдэл</span></h2>
+    <div class="client__card active">
+      <img src="assets/client-1.jpg" alt="client" />
+      <div class="client__content">
+        <h4>Emma Johnson</h4>
+        <h5>Аялал жуулчлалын блог хөтлөгч</h5>
+        <p>
+          Энэхүү аялалын платформ миний мөрөөдлийн мөрөөдлийг бодит болгож хувиргасан! The
+          захиалгын үйл явц ямар ч саадгүй байсан бөгөөд тэдний баг маш сайн ажилласан
+          заавал очиж үзэх газруудын заавар. Алхам бүр нь хүчгүй мэт санагдаж, би
+          Тэдэнтэй хамт дараагийн адал явдлаа төлөвлөхийг тэсэн ядан хүлээж байна. Маш их зөвлөж байна!
+
+        </p>
+      </div>
+    </div>
+    <div class="client__card">
+      <img src="assets/client-2.jpg" alt="client" />
+      <div class="client__content">
+        <h4>Sophia Lee</h4>
+        <h5>
+          Програм хангамжийн инженер</h5>
+        <p>
+          Энэ үйлчилгээгээр аялах нь таатай байлаа! Захиалгын уян хатан сонголтууд нь надад өөрийн хэмнэлээр төлөвлөх эрх чөлөөг олгосон бөгөөд нарийвчилсан маршрутууд нь ямар ч чухал зүйлийг орхигдуулахгүй байхыг баталгаажуулсан. Тэд миний хувьд төгс аяллын туршлагыг бий болгоход чин сэтгэлээсээ санаа тавьдаг юм шиг надад санагдсан. Үнэхээр гайхалтай!
+        </p>
+      </div>
+    </div>
+    <div class="client__card">
+      <img src="assets/client-3.jpg" alt="client" />
+      <div class="client__content">
+        <h4>Michael Roberts</h4>
+        <h5>Гэрэл зурагчин
+        </h5>
+        <p>
+          Гэрэл зурагчны хувьд үзэсгэлэнтэй газруудыг олох нь чухал бөгөөд энэ платформ миний хүлээлтээс давсан. Тэд захиалгыг хөнгөвчлөхөөс гадна зарим гайхалтай нуугдмал эрдэнүүдийг олж илрүүлэхэд тусалсан. Тэдний нарийн ширийн зүйлийг анхаарч үзсэн нь миний аялалыг мартагдашгүй, асуудалгүй болгосон!
+
+        </p>
+      </div>
+    </div>
+    <div class="client__btns">
+      <button class="btn" id="prev">
+        <i class="ri-arrow-left-line"></i>
+      </button>
+      <button class="btn" id="next">
+        <i class="ri-arrow-right-line"></i>
+      </button>
+    </div>
+  </section>
+
+  <section class="section__container subscribe__container" id="contact">
+    <h2 class="section__header">
+      
+Бидний тухай хамгийн сүүлийн үеийн мэдээг авахын тулд  <span>бүртгүүлээрэй</span>
+    </h2>
+    <p class="section__description">
+      Хамгийн сүүлийн үеийн аялал жуулчлалын хямдрал, очих газрын онцлох үйл явдлууд болон онцгой саналуудын талаар мэдээлэлтэй байгаарай. Яг одоо бүртгүүлж, манай үйлчилгээний талаархи сэтгэл хөдөлгөм мэдээ, шинэчлэлтийг хэзээ ч бүү алдаарай!
+
+    </p>
+    <form action="https://formsubmit.co/bell771177@gmail.com" method="POST">
+      <input 
+        type="email" 
+        id="email" 
+        name="email" 
+        placeholder="Your Email" 
+        required 
+        class="input-field" 
+      />
+      <button type="submit" class="btn">Subscribe</button>
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="box">
+    </form>
+    
+  </section>
+
+  <footer>
+    <div class="section__container footer__container">
+      <div class="footer__col">
+        <div class="footer__logo">
+          <a href="#">TravelToor</a>
+        </div>
+        <p>
+          Explore the world with us! Connect through our social media
+          channels, find quick links to essential resources, and access 24/7
+          support to make your travel planning effortless.
+        </p>
+        <ul class="footer__socials">
+          <li>
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-instagram-line"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Services</h4>
+        <ul class="footer__links">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Destinations</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Privacy</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Instagram</h4>
+        <div class="footer__col__flex">
+          <img src="assets/instagram-1.jpg" alt="instagram" />
+          <img src="assets/instagram-2.jpg" alt="instagram" />
+          <img src="assets/instagram-3.jpg" alt="instagram" />
+          <img src="assets/instagram-4.jpg" alt="instagram" />
+          <img src="assets/instagram-5.jpg" alt="instagram" />
+          <img src="assets/instagram-6.jpg" alt="instagram" />
+        </div>
+      </div>
+      <div class="footer__col">
+        <h4>Contact</h4>
+        <ul class="footer__links">
+          <li>
+            <a href="#">
+              <span><i class="ri-phone-fill"></i></span> +976 *********
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span><i class="ri-map-pin-fill"></i></span> Mongolia, Ulaanbator
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span><i class="ri-mail-fill"></i></span> *********8@gmail.com
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
